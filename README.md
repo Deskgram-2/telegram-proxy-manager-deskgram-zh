@@ -1,0 +1,69 @@
+# Deskgram 2 代理管理
+
+代理管理是 Deskgram 2 的基础设施模块，用于存储、导入、检测并分配 Telegram 账号使用的代理。它适合为私信、邀请、收集和其他自动化场景准备稳定的运行环境。
+
+[Deskgram 2 中文总览](https://github.com/Deskgram-2/deskgram-2-telegram-automation-zh) | [官网](https://deskgram2.com/) | [Telegram Bot](https://t.me/DG2welcomebot) | [Web Preview](https://deskgram2.com/web-preview)
+
+## 模块简介
+
+| 参数 | 内容 |
+|---|---|
+| 核心任务 | 存储、导入和检测 Telegram 代理 |
+| 支持类型 | `SOCKS5`, `HTTP` |
+| 适用场景 | 账号网格、私信活动、邀请、收集 |
+| 核心动作 | 批量导入、检测、筛选、账号绑定 |
+| 关联模块 | 账号面板、邀请模块、设置 |
+
+## 模块能力
+
+- 展示统一的代理表格；
+- 从准备好的列表中批量导入代理；
+- 检查可用性和响应状态；
+- 把代理绑定到 Telegram 账号；
+- 为自动化模块维护可复用的代理池；
+- 把基础设施集中在一个位置管理。
+
+## 快速开始
+
+1. 导入代理列表。
+2. 执行基础检测并剔除无效项。
+3. 把可用代理绑定到目标账号。
+4. 在邀请、私信或收集流程中复用准备好的代理池。
+
+## 适合在什么情况下使用
+
+- 当很多 Telegram 账号同时工作；
+- 当你希望把代理管理集中在一个可见位置；
+- 当邀请、收集和触达都依赖稳定基础设施；
+- 当账号绑定不能继续依赖零散维护。
+
+## 相比手动管理代理更方便的地方
+
+| 手动方式 | Deskgram 2 代理管理 |
+|---|---|
+| 代理数据分散在多个文件里 | 提供统一代理表格 |
+| 检测耗时且不稳定 | 健康检测是工作流一部分 |
+| 账号绑定容易混乱 | 绑定过程可见且可复用 |
+| 难以长期维护同一代理池 | 代理基础集中管理 |
+| 基础设施维护成本高 | 更适合持续清理和更新 |
+
+## 相关仓库
+
+- [Deskgram 2 中文总览](https://github.com/Deskgram-2/deskgram-2-telegram-automation-zh)
+- [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh)
+- [邀请模块](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh)
+- [设置](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh)
+
+## FAQ
+
+### 常见代理类型有哪些？
+
+通常围绕 `SOCKS5` 和 `HTTP` 工作。
+
+### 为什么要单独做一个代理模块？
+
+因为把基础设施从具体执行模块中拆出来，会更容易维护和复用。
+
+### 哪些模块最依赖它？
+
+邀请、收集、私信，以及所有需要大规模账号网格的工作流。
