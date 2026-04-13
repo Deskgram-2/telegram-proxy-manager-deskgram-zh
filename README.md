@@ -30,6 +30,14 @@
 3. 把可用代理绑定到目标账号。
 4. 在邀请、私信或收集流程中复用准备好的代理池。
 
+## 这套代理基础通常会接到哪些执行模块
+
+- [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)，当触达流程需要稳定的账号环境；
+- [邀请模块](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh)，当账号和受众基础已经准备好并要继续执行增长；
+- [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh)，当代理支撑的数据收集在前面；
+- [加群模块](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh)，当社区参与场景依赖健康的基础设施；
+- [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh)，当你想先把可用代理绑定到具体账号网格上。
+
 ## 适合在什么情况下使用
 
 - 当很多 Telegram 账号同时工作；
@@ -53,6 +61,9 @@
 - [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh)
 - [邀请模块](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh)
 - [设置](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh)
+- [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)
+- [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh)
+- [加群模块](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh)
 
 ## FAQ
 
