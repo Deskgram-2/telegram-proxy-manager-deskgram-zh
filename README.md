@@ -55,6 +55,22 @@
 | 难以长期维护同一代理池 | 代理基础集中管理 |
 | 基础设施维护成本高 | 更适合持续清理和更新 |
 
+## 适用场景
+
+- 为 [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh) 准备稳定代理池，适合多账号触达场景；
+- 在 [邀请模块](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh) 和 [加群模块](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh) 之前先把基础设施准备好；
+- 支撑 [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh)，当流程从 discovery 和数据采集开始时；
+- 统一轮换和清理可重复使用的代理层，让多个 Deskgram 2 工作流共用一套稳定环境。
+
+## 先做什么更合适：代理管理还是账号面板
+
+| 如果你的目标是 | 更适合先做什么 |
+|---|---|
+| 先把账号网格整理清楚 | [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) |
+| 先检查连接质量并剔除不稳定节点 | `代理管理` |
+| 为大规模执行准备稳定底座 | 先做账号面板，再进入 `代理管理` |
+| 在启动前统一工作区环境 | 先处理账号和代理，再去 [设置](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) |
+
 ## 相关仓库
 
 - [Deskgram 2 中文总览](https://github.com/Deskgram-2/deskgram-2-telegram-automation-zh)
